@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P4-TM13</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 13 4to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje:</strong>
+                                    <ul>
+                                        <li>A.I. Lens (Face): Modo Reconocimiento de Caras (Switch function as Face).</li>
+                                        <li>GCS: Image contains a face, face(s)' info: X, Y.</li>
+                                        <li>IA: Detección facial, no identificación. Percepción vs. Comprensión.</li>
+                                        <li>Parte de la Currícula de IA cubierta: Alfabetización Adicional: Percepción vs. Comprensión.</li>
+                                        <li>Objetivo General de la Sesión: Que los estudiantes exploren la función de detección de caras de la Smart A.I. Lens, comprendan la diferencia fundamental entre detectar la presencia de una cara y identificar a una persona específica, y reflexionen sobre los conceptos de percepción vs. comprensión en IA.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li>⚡ Actividad 1: Saludo de I.A. con todos</li>
+                                        <li>⚡ Actividad 2: I Can Statement + Ejemplificación</li>
+                                        <li>⚡ Actividad 3: AI GYM</li>
+                                        <li>⚡ Actividad 4: Brain Spark</li>
+                                        <li>⚡ Actividad 5: Gnius STORM (Think-Pair-Share)</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Programa en Micro:bit que utiliza la Smart A.I. Lens en modo "Face detection" para indicar (ej. con un icono o luz) cuando detecta una cara.</li>
+                                        <li>Participación activa en la discusión sobre la diferencia entre detección facial e identificación facial, y entre percepción y comprensión en IA.</li>
+                                        <li>(Opcional) Observaciones de pruebas con fotos de caras o caras parcialmente ocultas.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Agente Gnius" (Xolo) activo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-11).</li>
+                                        <li>Robots Cutebot (1 por cada 2 estudiantes, con A.I. Lens conectada).</li>
+                                        <li>Smart A.I. Lens (1 por cada 2 estudiantes, conectada al Cutebot).</li>
+                                        <li>Micro:bits y baterías (1 por cada 2 estudiantes).</li>
+                                        <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>), con extensión de A.I. Lens.</li>
+                                        <li>(Opcional) Teléfonos o libros con fotos de caras para experimentación. Espejos pequeños.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Confirmar acceso y funcionamiento de MakeCode y la extensión de A.I. Lens (modo "Face detection").</li>
+                                                <li>Asegurar disponibilidad, carga y conexión de Cutebots, A.I. Lens y Micro:bits.</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Agente Gnius" (Xolo) para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad. Especialmente importante la distinción entre detección e identificación.</li>
+                                        <li><strong>Ejemplo Profesor:</strong> Tener listo y funcional tu proyecto de ejemplo (Micro:bit mostrando un icono cuando la A.I. Lens detecta una cara) para la demostración en la Actividad 2.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 3 minutos</h2>
+                <p>El chatbot da la bienvenida y anticipa la exploración de la detección de caras, una habilidad "asombrosa y a veces discutida" de la IA.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Saludo de I.A. con todos ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 2). Da la bienvenida a los alumnos, mencionando los aprendizajes previos y adelantando el tema de la detección de caras. Pídeles que activen a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, exploradores de la IA! Hemos enseñado a nuestra lente a ver colores, números, letras ¡e incluso nuestros propios objetos! Hoy vamos a explorar una de las habilidades más asombrosas y a veces discutidas de la IA: ¡la capacidad de detectar caras humanas! ¿Listos para ver si nuestra lente puede encontrar sus sonrisas? Antes de empezar, activen a Xolo. Salúdenlo en el chat con su nombre y sus gustos. Por ejemplo: 'Hola Xolo, soy [Nombre] y me gustan las caricaturas y hacer caras chistosas'."</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Saludo de I.A. con todos ⏰ 2.5 minutos</h3>
+                            <p>Monitorea a los alumnos mientras interactúan con Xolo. Asegúrate de que todos reciban una respuesta y resuelve cualquier problema técnico.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente! Xolo está listo para esta misión de detección facial. Si alguien no ha recibido respuesta de Xolo, levante la mano.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 5 minutos</h2>
+                <p>Presentar el modo de detección de caras de la A.I. Lens, la diferencia crucial entre detectar e identificar, y el objetivo de la clase.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción y Contextualización ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 3). Introduce la capacidad de la A.I. Lens para detectar caras, pero enfatiza que NO identifica quién es la persona.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Nuestra Smart A.I. Lens tiene un modo especial para buscar caras en lo que ve la cámara. Puede decirnos: '¡Hey, aquí hay una cara!'. Pero es MUY importante entender algo desde el principio: esta lente puede detectar que hay una cara, pero NO puede identificar de quién es esa cara. No sabe sus nombres, no sabe si son ustedes o yo. Hoy vamos a ver cómo funciona esta detección y hablaremos de por qué esa diferencia entre 'detectar' y 'reconocer quién es' es tan importante, especialmente cuando hablamos de IA y privacidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Presentación del Proyecto del Profesor ⏰ 1 minuto</h3>
+                            <p>Muestra tu proyecto de ejemplo (Micro:bit mostrando un icono/mensaje cuando la lente ve una cara) ya cargado y funcionando. Esta es una demostración en vivo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Miren este ejemplo: (Muestra el Cutebot con A.I. Lens. Al poner tu cara frente a la lente, el Micro:bit muestra un icono o mensaje). Mi 'idea (vibe)' fue simplemente que el Micro:bit me avisara cuando viera una cara.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: "I Can Statement" y Conexión ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 4). Presenta formalmente el 'I Can Statement' y la reflexión sobre percepción vs. comprensión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Al final de la clase, podrán decir: '<strong>Yo puedo hacer que mi A.I. Lens detecte si hay una cara frente a ella y entiendo la diferencia entre detectar una cara e identificar a una persona.</strong>' Y también pensaremos sobre cómo la IA 'percibe' cosas versus cómo las 'comprende'. ¡A explorar la visión de caras de la IA!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: AI GYM ⏰ 7 minutos</h2>
+                <p>Introducir el comando `Switch function as Face`, cómo saber si hay cara (`Image contains a face`, `face(s)' info: X, Y`), y la distinción crucial entre detección vs. identificación facial, y percepción vs. comprensión en IA.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción Inicial y Contextualización de la IA ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 5). Presenta el A.I. GYM y da la instrucción para que los alumnos pidan la información a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios, al A.I. GYM! 🧠💪 Xolo nos explicará cómo activar el 'modo detective de caras' de la A.I. Lens, cómo saber si ve una cara y dónde está, y las importantísimas diferencias entre detectar e identificar, y entre percibir y comprender. Escriban en el chat: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero aprender sobre la detección de caras, la diferencia entre detección e identificación, y entre percepción y comprensión en IA'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Interacción Guiada y Ejemplo de Plan (GCS) ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 6 y 7). Monitorea a los alumnos. Xolo les explicará los comandos GCS para la detección de caras y su posición. También abordará los conceptos clave de <strong>Detección Facial</strong> vs. <strong>Identificación Facial</strong>, y <strong>Percepción</strong> vs. <strong>Comprensión</strong> en IA.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Muy bien! Xolo les está contando sobre los comandos GCS para que la A.I. Lens busque caras y nos diga dónde están. Pongan especial atención a la explicación de Xolo sobre la diferencia entre <strong>Detección Facial</strong> e <strong>Identificación Facial</strong>, y entre cómo la IA <strong>percibe</strong> y cómo <strong>comprende</strong>.</p>
+                                <p class="dialogue assistant">Para que vean un ejemplo de GCS para simplemente detectar una cara, Xolo podría presentarles esto:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">
+AL INICIO:
+    Initialize AI-Lens
+    Switch function as Face
+    mostrar texto "Buscando..."
+
+POR SIEMPRE:
+    SI (Image contains a face):
+        mostrar icono CARA_FELIZ
+    SINO:
+        limpiar pantalla
+    FIN SI
+    ESPERAR 0.1 segundos
+                                </pre>
+                                <p class="dialogue assistant">Si tienen dudas, ¡pregúntenle a Xolo! Por ejemplo: <br>
+                                <strong>* 'Xolo, ¿mi teléfono usa detección o identificación facial para desbloquearse?'</strong><br>
+                                <strong>* 'Si le muestro una foto de mi perro a la lente en modo caras, ¿la detectará?'</strong> (Relacionar con sus gustos) <br>
+                                <strong>* '¿Por qué es importante la privacidad con la identificación facial?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
+                <p>Programación de la detección de caras, implementación, prueba y experimentación centrada en la detección (no identificación).</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción al Brain Spark y Preparación del Experimento ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 8). Presenta la actividad. Indica que la 'idea (vibe)' es que el Micro:bit reaccione a una cara. Deberán coordinarse en pareja para usar el material compartido y realizar los turnos de programación y pruebas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo, detectives de IA! Ahora al Brain Spark. La 'idea (vibe)' es simple: 'Quiero que mi Micro:bit muestre un corazón cuando la A.I. Lens vea una cara', o 'Quiero que mi Cutebot encienda una luz verde si detecta una cara.' Aunque la idea es individual, recuerden que comparten el material en pareja. Pónganse de acuerdo para los turnos de programación y para probar con sus propias caras (o fotos).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Planificación con IA (El GCS) y Logística ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 9). Guía a los alumnos sobre cómo pedir a Xolo su GCS para la detección de caras. Asegúrate de que cada pareja tenga su material.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Para su 'idea (vibe)' de reaccionar a una cara, díganle a Xolo: 'Quiero que mi Micro:bit muestre un icono de corazón cuando la A.I. Lens detecte una cara'.</p>
+                                <p class="dialogue assistant">Xolo podría generar un GCS como este:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">
+AL INICIO:
+    Initialize AI-Lens
+    Switch function as Face // Cambiamos al modo de detección de caras
+    mostrar texto "Buscando caras..."
+
+POR SIEMPRE:
+    SI (Image contains a face):
+        mostrar icono CORAZON // O cualquier otra indicación visual
+        // Opcional: Usar la información X, Y para algo simple
+        // fijar variable "posicion_X_cara" a face(s)' info: X
+        // mostrar numero variable "posicion_X_cara" // Para ver dónde la detecta
+    SINO:
+        limpiar pantalla // Si no ve una cara
+    FIN SI
+    ESPERAR 0.2 segundos // Pausa para procesar
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Implementación y Prueba ⏰ 8 minutos</h3>
+                            <p>Da tiempo para implementar el GCS y probar moviendo sus caras frente a la lente.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A programar la detección! Tomen su GCS y constrúyanlo en MakeCode. Luego, prueben moviendo sus caras frente a la lente. ¡Asegúrense de turnarse con su compañero!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Experimentación y Observación (Centrada en Detección) ⏰ 5 minutos</h3>
+                            <p>Guía a los alumnos para experimentar: ¿Detecta caras de lado, lejos? Probar con fotos de caras. Discutir por qué detecta una foto igual que una cara real y si la lente "entiende" la diferencia.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, ¡a experimentar más! ¿Detecta sus caras fácilmente? ¿Y si se ponen de lado? ¿Y si están lejos? Prueben con una foto de una cara en un teléfono o en un libro. ¿La detecta? (Probablemente sí, porque busca el patrón). Esto refuerza que es detección, no reconocimiento de la persona real. Si hay varias caras, ¿qué pasa? Discutan con su compañero: ¿Por qué creen que la lente detecta una cara en una foto igual que una cara real? ¿Entiende la lente que una es una foto y la otra una persona?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Mejoras y Desafíos ⏰ 1 minutos</h3>
+                            <p>Ofrece desafíos adicionales.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¿Su A.I. Lens ya es una buena detective de caras? ¡Genial! Para un desafío extra: ¿Pueden hacer que el Cutebot intente girar hacia donde detecta la cara usando la información de `face(s)' info: X`? ¡Consulten con Xolo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Los alumnos comparten sus hallazgos sobre la detección de caras y reflexionan sobre la diferencia entre detectar e identificar, y percepción vs. comprensión.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual) ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 10). Presenta la actividad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo, exploradores de la percepción artificial! Han investigado cómo la A.I. Lens detecta caras. En nuestro Gnius STORM, compartiremos lo que observaron.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas) ⏰ 0.5 minutos</h3>
+                            <p>Reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Antes de compartir, piensen 30 segundos: <strong>¿Logró su A.I. Lens detectar sus caras? ¿Qué observaron al probar con fotos o caras de lado? ¿Creen que la lente 'sabe' quiénes son ustedes cuando detecta su cara?</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share - Retroalimentación) ⏰ 1.5 minutos</h3>
+                            <p>Indica a los alumnos que se junten en parejas, muestren si su A.I. Lens detectó caras y compartan sus observaciones.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Con su compañero, muestren si su A.I. Lens logró detectar sus caras y qué observaron en las diferentes pruebas. Expliquen: <strong>'Mi A.I. Lens [detectó/no detectó bien] las caras. Cuando probé con una foto, [resultado].'</strong> El compañero debe observar y escuchar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Gnius STORM (Reflexión Final) ⏰ 1.5 minutos</h3>
+                            <p>Guía la retroalimentación y la discusión sobre detección vs. identificación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, la retroalimentación y discusión en pareja: <br>
+                                <strong>* 'Me pareció interesante que tu A.I. Lens [observación del compañero].'</strong><br>
+                                <strong>* '¿Por qué crees que es importante recordar que detectar una cara no es lo mismo que saber quién es esa persona?'</strong><br>
+                                <strong>* '¿Qué le faltaría a la IA para "comprender" realmente una cara como lo hacemos nosotros?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Gnius STORM (Reflexión Final) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 11). Cierra la sesión reforzando la diferencia crítica entre detección e identificación, percepción y comprensión, y la mención a la ética y privacidad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Han explorado la detección facial con la A.I. Lens. Es crucial recordar que detectar no es identificar. Nuestra lente es buena percibiendo el patrón de una cara, pero no tiene la capacidad ni los datos para comprender quiénes son ustedes. Esta distinción entre percepción y comprensión es fundamental en IA. Mientras la IA puede ser muy buena percibiendo patrones, la comprensión profunda, como la que tenemos los humanos, es un desafío mucho mayor. Y siempre debemos pensar en la ética y la privacidad cuando se trata de tecnologías que involucran caras. Hoy lograron decir: '<strong>Yo puedo hacer que mi A.I. Lens detecte si hay una cara frente a ella y entiendo la diferencia entre detectar una cara e identificar a una persona.</strong>' ¡Han aprendido una lección muy importante sobre IA!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
